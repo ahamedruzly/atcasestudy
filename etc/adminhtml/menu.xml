@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * AT.
+ *
+ * @category    AT
+ * @package     AT_CustomCatalog
+ * @author      Ahamed Ruzly <ahamedruzly@gmail.com>
+ * @copyright   Copyright (c) 2019 @AT
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="AT_CustomCatalog::custom_catalog" title="CustomCatalog" translate="title" module="AT_CustomCatalog"
+             parent="Magento_Catalog::inventory" sortOrder="50" action="customcatalog/product/"
+             resource="AT_CustomCatalog::products"/>
+    </menu>
+</config>

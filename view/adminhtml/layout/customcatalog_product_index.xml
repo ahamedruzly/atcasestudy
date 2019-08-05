@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * AT.
+ *
+ * @category    AT
+ * @package     AT_CustomCatalog
+ * @author      Ahamed Ruzly <ahamedruzly@gmail.com>
+ * @copyright   Copyright (c) 2019 @AT
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<head>
+    <title>Custom Catalog</title>
+</head>
+<body>
+    <referenceContainer name="content">
+        <uiComponent name="customcatalog_product_listing"/>
+        <block class="Magento\Catalog\Block\Adminhtml\Product" name="products_list"/>
+    </referenceContainer>
+</body>
+</page>

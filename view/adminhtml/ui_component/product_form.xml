@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * AT.
+ *
+ * @category    AT
+ * @package     AT_CustomCatalog
+ * @author      Ahamed Ruzly <ahamedruzly@gmail.com>
+ * @copyright   Copyright (c) 2019 @AT
+ */
+-->
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <settings>
+        <buttons>
+            <button name="back" class="AT\CustomCatalog\Block\Adminhtml\Product\Edit\Button\Back"/>
+        </buttons>
+    </settings>
+</form>
