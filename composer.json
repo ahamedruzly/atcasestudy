@@ -1,5 +1,5 @@
 {
-  "name": "at/custom-catalog",
+  "name": "rmac/custom-catalog",
   "description": "CustomCatalog",
   "type": "magento2-module",
   "version": "1.0.0",
